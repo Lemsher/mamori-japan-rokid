@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Report xmlns="http://xml.kishou.go.jp/jmaxml1/" xmlns:jmx="http://xml.kishou.go.jp/jmaxml1/">
+<Control>
+<Title>噴火警報・予報</Title>
+<DateTime>2026-09-08T02:00:12Z</DateTime>
+<Status>通常</Status>
+<EditorialOffice>気象庁本庁</EditorialOffice>
+<PublishingOffice>気象庁</PublishingOffice>
+</Control>
+<Head xmlns="http://xml.kishou.go.jp/jmaxml1/informationBasis1/">
+<Title>火山名  西之島  噴火警報（火口周辺）</Title>
+<ReportDateTime>2026-09-08T11:00:00+09:00</ReportDateTime>
+<TargetDateTime>2026-09-08T11:00:00+09:00</TargetDateTime>
+<EventID>326</EventID>
+<InfoType>発表</InfoType>
+<Serial />
+<InfoKind>噴火警報・予報</InfoKind>
+<InfoKindVersion>1.0_0</InfoKindVersion>
+<Headline>
+<Text>＜西之島に火口周辺警報（火口周辺危険）を発表＞
+　山頂火口から概ね１ｋｍの範囲では、噴火に伴う弾道を描いて飛散する大きな噴石に警戒してください。
+＜火口周辺警報（入山危険）から火口周辺警報（火口周辺危険）に引下げ＞</Text>
+<Information type="噴火警報・予報（対象火山）">
+<Item>
+<Kind>
+<Name>火口周辺危険</Name>
+<Code>22</Code>
+<Condition>引下げ</Condition>
+</Kind>
+<LastKind>
+<Name>入山危険</Name>
+<Code>23</Code>
+<Condition />
+</LastKind>
+<Areas codeType="火山名">
+<Area>
+<Name>西之島</Name>
+<Code>326</Code>
+</Area>
+</Areas>
+</Item>
+</Information>
+<Information type="噴火警報・予報（対象市町村等）">
+<Item>
+<Kind>
+<Name>火口周辺警報</Name>
+<Code>02</Code>
+<Condition>切替</Condition>
+</Kind>
+<LastKind>
+<Name>火口周辺警報</Name>
+<Code>02</Code>
+<Condition />
+</LastKind>
+<Areas codeType="気象・地震・火山情報／市町村等">
+<Area>
+<Name>東京都小笠原村</Name>
+<Code>1342100</Code>
+</Area>
+</Areas>
+</Item>
+</Information>
+<Information type="噴火警報・予報（対象市町村の防災対応等）">
+<Item>
+<Kind>
+<Name>火口周辺警報：火口周辺警戒</Name>
+<Code>49</Code>
+<Condition>継続</Condition>
+</Kind>
+<LastKind>
+<Name>火口周辺警報：火口周辺警戒</Name>
+<Code>49</Code>
+<Condition />
+</LastKind>
+<Areas codeType="気象・地震・火山情報／市町村等">
+<Area>
+<Name>東京都小笠原村</Name>
+<Code>1342100</Code>
+</Area>
+</Areas>
+</Item>
+</Information>
+</Headline>
+</Head>
+<Body xmlns="http://xml.kishou.go.jp/jmaxml1/body/volcanology1/" xmlns:jmx_eb="http://xml.kishou.go.jp/jmaxml1/elementBasis1/">
+<VolcanoInfo type="噴火警報・予報（対象火山）">
+<Item>
+<Kind>
+<Name>火口周辺危険</Name>
+<Code>22</Code>
+<Condition>引下げ</Condition>
+</Kind>
+<LastKind>
+<Name>入山危険</Name>
+<Code>23</Code>
+<Condition />
+</LastKind>
+<Areas codeType="火山名">
+<Area>
+<Name>西之島</Name>
+<Code>326</Code>
+<Coordinate description="北緯２７度１４．６３分　東経１４０度５２．７８分　標高１６０ｍ">+2714.63+14052.78+160/</Coordinate>
+</Area>
+</Areas>
+</Item>
+</VolcanoInfo>
+<VolcanoInfo type="噴火警報・予報（対象市町村等）">
+<Item>
+<Kind>
+<Name>火口周辺警報</Name>
+<Code>02</Code>
+<Condition>切替</Condition>
+</Kind>
+<LastKind>
+<Name>火口周辺警報</Name>
+<Code>02</Code>
+<Condition />
+</LastKind>
+<Areas codeType="気象・地震・火山情報／市町村等">
+<Area>
+<Name>東京都小笠原村</Name>
+<Code>1342100</Code>
+</Area>
+</Areas>
+</Item>
+</VolcanoInfo>
+<VolcanoInfo type="噴火警報・予報（対象市町村の防災対応等）">
+<Item>
+<Kind>
+<Name>火口周辺警報：火口周辺警戒</Name>
+<Code>49</Code>
+<Condition>継続</Condition>
+</Kind>
+<LastKind>
+<Name>火口周辺警報：火口周辺警戒</Name>
+<Code>49</Code>
+<Condition />
+</LastKind>
+<Areas codeType="気象・地震・火山情報／市町村等">
+<Area>
+<Name>東京都小笠原村</Name>
+<Code>1342100</Code>
+</Area>
+</Areas>
+</Item>
+</VolcanoInfo>
+<VolcanoInfoContent>
+<VolcanoHeadline>＜西之島に火口周辺警報（火口周辺危険）を発表＞
+　山頂火口から概ね１ｋｍの範囲では、噴火に伴う弾道を描いて飛散する大きな噴石に警戒してください。
+＜火口周辺警報（入山危険）から火口周辺警報（火口周辺危険）に引下げ＞</VolcanoHeadline>
+<VolcanoActivity>　西之島では、２０２３年１０月５日以降、噴火は確認されていません。また、西之島付近で周囲に比べて温度の高い領域は認められません。
+　これらのことから、西之島の火山活動は低下しており、山頂火口から概ね１．５ｋｍの範囲に影響を及ぼす噴火が発生する可能性は低くなったと考えられます。
+　一方、海上保安庁が８月１７日に実施した上空からの観測では、山頂火口内で噴気が確認されていることから、今後も、小規模な水蒸気噴火が発生する可能性があります。山頂火口から概ね１ｋｍの範囲では引き続き警戒が必要です。</VolcanoActivity>
+<VolcanoPrevention>　山頂火口から概ね１ｋｍの範囲では、噴火に伴う弾道を描いて飛散する大きな噴石に警戒してください。
+　また、島内ではこれまでの噴火で流れ出た溶岩は、表面が冷え固まっていても、地形的に崩れやすくなっている可能性が考えられますので、山頂火口から概ね１ｋｍを超える範囲でも注意が必要です。</VolcanoPrevention>
+</VolcanoInfoContent>
+</Body>
+</Report>

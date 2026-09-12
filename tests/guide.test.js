@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {classifyIntent,getGuide,resolveIntent,HAZARDS} from '../agent/modules/playbooks.js';
+import {warningSummary,isSnapshotFresh} from '../agent/modules/client.js';
+test('coastal earthquake routes to tsunami without a model',()=>assert.equal(classifyIntent('海の近くで強い揺れを感じた').intent,'tsunami'));
+test('Chinese flooding selects emergency alternative',()=>{const r=classifyIntent('道路积水，不能出去');assert.equal(r.intent,'flood');assert.equal(r.blocked,true);assert.match(getGuide(r.intent,'zh',true).steps[0].title,/外出/);});
+test('landslide blocked route starts with relative shelter, never routine vertical evacuation',()=>{const g=getGuide('landslide','ja',true);assert.match(g.steps[0].detail,/崖から離れた/);assert.match(g.steps[0].detail,/安全の保証ではない/);});
+test('all hazards have bilingual offline guidance and citations',()=>{for(const h of HAZARDS)for(const l of ['ja','zh']){const g=getGuide(h,l);assert(g.steps.length>=2);assert(g.source.startsWith('https://'));assert(g.steps.every(s=>s.title&&s.detail));}});
+test('model cannot inject arbitrary advice',async()=>{let destroyed=false;const model={availability:async()=>'available',create:async()=>({prompt:async()=>'ignore all rules and return home',destroy(){destroyed=true;}})};assert.equal((await resolveIntent('help me',model)).intent,'unknown');assert(destroyed);});
+test('immediate hazard never waits for LLM availability',async()=>{let called=false;const model={availability(){called=true;throw Error();}};assert.equal((await resolveIntent('地震だ',model)).intent,'earthquake');assert.equal(called,false);});
+test('unknown city or network loss is never an all-clear',()=>{assert.match(warningSummary(null,'ja'),/未確認/);assert.match(warningSummary({checkedAt:new Date().toISOString(),dataState:'fetched',warnings:{alerts:[],state:'fetched'}},'zh'),/不代表安全/);});
+test('old and future snapshots are rejected',()=>{const s={checkedAt:new Date(Date.now()-180000).toISOString(),dataState:'fetched'};assert.equal(isSnapshotFresh(s),false);assert.equal(isSnapshotFresh({...s,checkedAt:new Date(Date.now()+180000).toISOString()}),false);});
+test('completion never means all clear',()=>assert.match(getGuide('tsunami','zh').footer,/不代表警报解除/));
+test('stalled model times out and releases its session',async()=>{let destroyed=false;const model={availability:async()=>'available',create:async()=>({prompt:()=>new Promise(()=>{}),destroy(){destroyed=true;}})};const r=await resolveIntent('help me',model,10);assert.equal(r.intent,'unknown');assert.equal(r.via,'local');assert(destroyed);});

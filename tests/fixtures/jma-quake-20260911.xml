@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://xml.kishou.go.jp/jmaxml1/" xmlns:jmx="http://xml.kishou.go.jp/jmaxml1/">
+<Control>
+<Title>震源・震度に関する情報</Title>
+<DateTime>2026-09-11T01:10:33Z</DateTime>
+<Status>通常</Status>
+<EditorialOffice>大阪管区気象台</EditorialOffice>
+<PublishingOffice>気象庁</PublishingOffice>
+</Control>
+<Head xmlns="http://xml.kishou.go.jp/jmaxml1/informationBasis1/">
+<Title>震源・震度情報</Title>
+<ReportDateTime>2026-09-11T10:10:00+09:00</ReportDateTime>
+<TargetDateTime>2026-09-11T10:10:00+09:00</TargetDateTime>
+<EventID>20260911100727</EventID>
+<InfoType>発表</InfoType>
+<Serial>1</Serial>
+<InfoKind>地震情報</InfoKind>
+<InfoKindVersion>1.0_1</InfoKindVersion>
+<Headline>
+<Text>１１日１０時０７分ころ、地震がありました。</Text>
+</Headline>
+</Head>
+<Body xmlns="http://xml.kishou.go.jp/jmaxml1/body/seismology1/" xmlns:jmx_eb="http://xml.kishou.go.jp/jmaxml1/elementBasis1/">
+<Earthquake>
+<OriginTime>2026-09-11T10:07:00+09:00</OriginTime>
+<ArrivalTime>2026-09-11T10:07:00+09:00</ArrivalTime>
+<Hypocenter>
+<Area>
+<Name>熊本県熊本地方</Name>
+<Code type="震央地名">741</Code>
+<jmx_eb:Coordinate description="北緯３２．７度　東経１３０．８度　深さ　１０ｋｍ" >+32.7+130.8-10000/</jmx_eb:Coordinate>
+</Area>
+</Hypocenter>
+<jmx_eb:Magnitude type="Mj" description="Ｍ２．８">2.8</jmx_eb:Magnitude>
+</Earthquake>
+<Intensity>
+<Observation>
+<CodeDefine>
+<Type xpath="Pref/Code">地震情報／都道府県等</Type>
+<Type xpath="Pref/Area/Code">地震情報／細分区域</Type>
+<Type xpath="Pref/Area/City/Code">気象・地震・火山情報／市町村等</Type>
+<Type xpath="Pref/Area/City/IntensityStation/Code">震度観測点</Type>
+</CodeDefine>
+<MaxInt>1</MaxInt>
+<Pref><Name>熊本県</Name><Code>43</Code><MaxInt>1</MaxInt>
+<Area><Name>熊本県熊本</Name><Code>741</Code><MaxInt>1</MaxInt>
+<City><Name>熊本東区</Name><Code>4310200</Code><MaxInt>1</MaxInt>
+<IntensityStation><Name>熊本東区佐土原＊</Name><Code>4310221</Code><Int>1</Int></IntensityStation>
+</City>
+<City><Name>熊本西区</Name><Code>4310300</Code><MaxInt>1</MaxInt>
+<IntensityStation><Name>熊本西区春日</Name><Code>4310300</Code><Int>1</Int></IntensityStation>
+</City>
+<City><Name>熊本南区</Name><Code>4310400</Code><MaxInt>1</MaxInt>
+<IntensityStation><Name>熊本南区城南町＊</Name><Code>4310432</Code><Int>1</Int></IntensityStation>
+</City>
+<City><Name>宇土市</Name><Code>4321100</Code><MaxInt>1</MaxInt>
+<IntensityStation><Name>宇土市浦田町＊</Name><Code>4321121</Code><Int>1</Int></IntensityStation>
+</City>
+<City><Name>宇城市</Name><Code>4321300</Code><MaxInt>1</MaxInt>
+<IntensityStation><Name>宇城市松橋町</Name><Code>4321300</Code><Int>1</Int></IntensityStation>
+<IntensityStation><Name>宇城市不知火町＊</Name><Code>4321330</Code><Int>1</Int></IntensityStation>
+<IntensityStation><Name>宇城市豊野町＊</Name><Code>4321335</Code><Int>1</Int></IntensityStation>
+</City>
+<City><Name>大津町</Name><Code>4340300</Code><MaxInt>1</MaxInt>
+<IntensityStation><Name>大津町大津＊</Name><Code>4340331</Code><Int>1</Int></IntensityStation>
+</City>
+<City><Name>御船町</Name><Code>4344100</Code><MaxInt>1</MaxInt>
+<IntensityStation><Name>御船町御船＊</Name><Code>4344131</Code><Int>1</Int></IntensityStation>
+</City>
+<City><Name>嘉島町</Name><Code>4344200</Code><MaxInt>1</MaxInt>
+<IntensityStation><Name>嘉島町上島＊</Name><Code>4344230</Code><Int>1</Int></IntensityStation>
+</City>
+<City><Name>益城町</Name><Code>4344300</Code><MaxInt>1</MaxInt>
+<IntensityStation><Name>益城町宮園＊</Name><Code>4344333</Code><Int>1</Int></IntensityStation>
+</City>
+<City><Name>山都町</Name><Code>4344700</Code><MaxInt>1</MaxInt>
+<IntensityStation><Name>山都町浜町＊</Name><Code>4344722</Code><Int>1</Int></IntensityStation>
+</City>
+</Area>
+</Pref>
+</Observation>
+</Intensity>
+<Comments>
+<ForecastComment codeType="固定付加文">
+<Text>この地震による津波の心配はありません。</Text>
+<Code>0215</Code>
+</ForecastComment>
+<VarComment codeType="固定付加文">
+<Text>＊印は気象庁以外の震度観測点についての情報です。</Text>
+<Code>0262</Code>
+</VarComment>
+</Comments>
+</Body>
+</Report>

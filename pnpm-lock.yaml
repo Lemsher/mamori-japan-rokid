@@ -1,0 +1,50 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@yodaos-pkg/aix-cli':
+        specifier: 0.8.2
+        version: 0.8.2
+
+packages:
+
+  '@yodaos-pkg/aix-cli@0.8.2':
+    resolution: {integrity: sha512-bb5nm3c764bVLYeXwj7/+GGUD62cJIShInfaajlfvjDXTyN6t11vKEXWkTiIzNZIPKyNc9mBKpzuEF2SxjJT/w==}
+    engines: {node: '>=20'}
+    hasBin: true
+
+  ignore@5.3.2:
+    resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
+    engines: {node: '>= 4'}
+
+  ws@8.21.3:
+    resolution: {integrity: sha512-201TZ/kPWxoPr/OKWjquZR1SWKXcvxdH+e1xrx89b3YbmzLMFCLfnaG1HFIgWzJOEWZ7MvpK++odZufgYR50Rw==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+
+snapshots:
+
+  '@yodaos-pkg/aix-cli@0.8.2':
+    dependencies:
+      ignore: 5.3.2
+      ws: 8.21.3
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+
+  ignore@5.3.2: {}
+
+  ws@8.21.3: {}

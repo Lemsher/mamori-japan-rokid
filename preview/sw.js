@@ -1,0 +1,5 @@
+const CACHE='mamori-shell-0.2.2-1c849b99f4f9';
+const ASSETS=['/','/index.html','/style.css','/app.js','/modules/playbooks.js','/modules/keys.js','/modules/briefs.js','/modules/client.js','/modules/config.js','/modules/locations.js','/modules/location-data.js','/modules/postal-data.js','/modules/coast-data.js','/modules/alerts.js','/modules/monitoring.js','/modules/weather.js','/modules/forecast-stations.js','/modules/population.js','/modules/shelters.js'];
+self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
+self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('mamori-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
+self.addEventListener('fetch',e=>{const u=new URL(e.request.url);if(u.origin!==self.location.origin||u.pathname.startsWith('/api/')||e.request.method!=='GET'||!ASSETS.includes(u.pathname))return;e.respondWith(fetch(e.request).catch(()=>caches.match(e.request)));});
