@@ -1,0 +1,12 @@
+{
+  "version": "0.2.2",
+  "nativeEngine": "Ink 0.17.0",
+  "testsPassed": 75,
+  "javascript": 48,
+  "python": 27,
+  "previewFilesMatched": 26,
+  "populationBasis": "2024-10-01 prefecture total population; 45 entries descending, 13 local divisions at end",
+  "weatherSample": "JMA 2026-09-11 11:00 Tokyo forecast: daytime max 21C, 12-18h PoP 60%; example, not user GPS",
+  "nativeFlows": "7 homepage icon/title cards open full guide subpages and return; population first/last pages verified; synthetic warning prioritizes warning title",
+  "temporaryFixtureShipped": false
+}

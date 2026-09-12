@@ -1,0 +1,48 @@
+✔ postal lookup accepts Japanese formatted digits, never treats an invalid postcode as a location (14.747833ms)
+✔ all bundled postal municipality groups resolve to explicit JMA candidates (60.223167ms)
+✔ every hazard and both languages fit three bounded visible guide points (0.48725ms)
+✔ blocked landslide leads with staying away from the slope, with no promise of safety (0.102084ms)
+✔ a fresh matching severe alert interrupts once; unrelated, old and cancelled reports do not (0.841416ms)
+✔ observed earthquake information never supplies an earthquake countdown (0.110417ms)
+✔ tsunami countdown needs a confirmed coast and authoritative arrival time; it never turns negative (0.626208ms)
+✔ shelters must be explicitly suitable for the selected hazard and retain special conditions (0.798541ms)
+✔ temple keys select before activation, wrap safely and allow backing out (0.921875ms)
+✔ JST formatting and freshness accept native epoch captures without Date construction (0.279334ms)
+✔ coastal earthquake routes to tsunami without a model (3.781125ms)
+✔ Chinese flooding selects emergency alternative (0.337666ms)
+✔ landslide blocked route starts with relative shelter, never routine vertical evacuation (0.08175ms)
+✔ all hazards have bilingual offline guidance and citations (0.133041ms)
+✔ model cannot inject arbitrary advice (0.307209ms)
+✔ immediate hazard never waits for LLM availability (0.080625ms)
+✔ unknown city or network loss is never an all-clear (3.712875ms)
+✔ old and future snapshots are rejected (0.109084ms)
+✔ completion never means all clear (0.072208ms)
+✔ stalled model times out and releases its session (45.419125ms)
+✔ offline regions and address matching do not need a weather backend (44.435667ms)
+✔ ambiguous municipalities remain candidates; prefecture narrows the result (7.267666ms)
+✔ no-keyboard region list covers every municipality (1.124084ms)
+✔ GSI ward code is mapped to JMA candidates without guessing a split district (0.829583ms)
+✔ only an explicitly confirmed municipality code is saved (0.211ms)
+✔ unsupported and denied location return actionable manual-selection messages (0.345208ms)
+✔ stale or inaccurate coordinates cannot select a warning region (0.135917ms)
+✔ outside-Japan position does not silently default to Tokyo (0.92ms)
+✔ GPS success yields candidates, not a persisted or confirmed location (0.772166ms)
+✔ Studio simulated text is handled as a SpeechRecognition result (0.248709ms)
+✔ native pages retain controls at Studio target=_current and receive voice wakeup (0.601833ms)
+✔ native page back pops exactly one page even with a selected action (2.212ms)
+✔ every standalone native page returns to home without closing the preview (0.362791ms)
+✔ unload removes replaced pages and a failed host back has a home fallback (0.56125ms)
+✔ municipality back restores the original region page and offset before leaving (15.371417ms)
+✔ new location search discards an obsolete region parent (7.590125ms)
+✔ confirming a location preserves the native caller instead of creating another home (4.757792ms)
+✔ shelter handoff returns to results first, then the parent page (1.346417ms)
+✔ shelter cards page through all results and retain the card after returning from handoff (1.101667ms)
+✔ native shelter search initializes the visible card and changing hazards clears it (1.858542ms)
+ℹ tests 40
+ℹ suites 0
+ℹ pass 40
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 210.296542

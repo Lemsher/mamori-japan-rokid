@@ -1,0 +1,67 @@
+AIUI manifest, routes, SFC syntax, imports and event bindings passed.
+Scanning source files in agent
+Collected 27 source files
+Loading WASM engine
+WASM engine ready
+Creating WASM source builder
+Transferring files to WASM incrementally
+Finished transferring files to WASM
+Collecting source inputs
+Resolving engine range
+Preparing files for packaging
+Adding file: AGENTS.md
+Optimized app.js: 89 bytes -> 72 bytes (saved 17 bytes)
+Adding file: app.json
+Optimized modules/alerts.js: 3.02 KB -> 2.60 KB (saved 426 bytes)
+Optimized modules/briefs.js: 4.74 KB -> 4.39 KB (saved 362 bytes)
+Optimized modules/client.js: 2.42 KB -> 1.69 KB (saved 743 bytes)
+Optimized modules/coast-data.js: 5.99 KB -> 5.92 KB (saved 70 bytes)
+Optimized modules/config.js: 296 bytes -> 66 bytes (saved 230 bytes)
+Optimized modules/forecast-stations.js: 9.34 KB -> 8.23 KB (saved 1.11 KB)
+Optimized modules/keys.js: 757 bytes -> 459 bytes (saved 298 bytes)
+Optimized modules/location-data.js: 251.24 KB -> 248.37 KB (saved 2.87 KB)
+Optimized modules/locations.js: 7.73 KB -> 6.13 KB (saved 1.60 KB)
+Optimized modules/monitoring.js: 2.46 KB -> 1.76 KB (saved 713 bytes)
+Optimized modules/navigation.js: 532 bytes -> 283 bytes (saved 249 bytes)
+Optimized modules/playbooks.js: 10.87 KB -> 9.52 KB (saved 1.35 KB)
+Optimized modules/population.js: 785 bytes -> 554 bytes (saved 231 bytes)
+Optimized modules/postal-data.js: 970.29 KB -> 970.22 KB (saved 68 bytes)
+Optimized modules/shelters.js: 3.44 KB -> 2.82 KB (saved 640 bytes)
+Optimized modules/text-input.js: 661 bytes -> 323 bytes (saved 338 bytes)
+Optimized modules/weather.js: 4.42 KB -> 3.16 KB (saved 1.26 KB)
+Adding file: pages/alert/index.ink
+Adding file: pages/guide/index.ink
+Adding file: pages/home/index.ink
+Adding file: pages/location/index.ink
+Adding file: pages/shelters/index.ink
+Finalizing package archive
+Package created: dist/mamori-japan-0.2.2.aix (1.30 MB)
+Contents of dist/mamori-japan-0.2.2.aix:
+AGENTS.md: 5.83 KB (compressed: 5.83 KB)
+META-INF/aix/manifest.json: 3.23 KB (compressed: 3.23 KB)
+VERSION: 36 bytes (compressed: 36 bytes)
+app.js: 72 bytes (compressed: 72 bytes)
+app.json: 361 bytes (compressed: 361 bytes)
+modules/alerts.js: 2.60 KB (compressed: 2.60 KB)
+modules/briefs.js: 4.39 KB (compressed: 4.39 KB)
+modules/client.js: 1.69 KB (compressed: 1.69 KB)
+modules/coast-data.js: 5.92 KB (compressed: 5.92 KB)
+modules/config.js: 66 bytes (compressed: 66 bytes)
+modules/forecast-stations.js: 8.23 KB (compressed: 8.23 KB)
+modules/keys.js: 459 bytes (compressed: 459 bytes)
+modules/location-data.js: 248.37 KB (compressed: 248.37 KB)
+modules/locations.js: 6.13 KB (compressed: 6.13 KB)
+modules/monitoring.js: 1.76 KB (compressed: 1.76 KB)
+modules/navigation.js: 283 bytes (compressed: 283 bytes)
+modules/playbooks.js: 9.52 KB (compressed: 9.52 KB)
+modules/population.js: 554 bytes (compressed: 554 bytes)
+modules/postal-data.js: 970.22 KB (compressed: 970.22 KB)
+modules/shelters.js: 2.82 KB (compressed: 2.82 KB)
+modules/text-input.js: 323 bytes (compressed: 323 bytes)
+modules/weather.js: 3.16 KB (compressed: 3.16 KB)
+pages/alert/index.ink: 6.93 KB (compressed: 6.93 KB)
+pages/guide/index.ink: 6.92 KB (compressed: 6.92 KB)
+pages/home/index.ink: 11.98 KB (compressed: 11.98 KB)
+pages/location/index.ink: 12.07 KB (compressed: 12.07 KB)
+pages/shelters/index.ink: 10.58 KB (compressed: 10.58 KB)
+Preview HTML created: /Users/hanyu/Documents/ChatGPT/rokid项目/preview/aiui-runtime.html

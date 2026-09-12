@@ -1,0 +1,16 @@
+{
+  "version": "0.2.1",
+  "nativeRenderer": "Ink 0.17.0",
+  "cli": "AIX 0.8.2",
+  "tests": {
+    "javascript": 40,
+    "python": 27,
+    "failed": 0
+  },
+  "previewSourceFilesMatched": 23,
+  "guideScreensInspected": 18,
+  "navigation": "keyboard, temple buttons, nested pages, region offset, standalone home fallback, shelter card handoff return passed",
+  "viewport390": "proportional canvas, no horizontal overflow, canvas click passed",
+  "fixtures": "synthetic alert and 8 shelter cards only; temporary file removed; not shipped",
+  "deviceTested": false
+}
