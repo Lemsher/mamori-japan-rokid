@@ -1,0 +1,67 @@
+{
+  "city": {
+    "code": "0320200",
+    "name": "宮古市",
+    "enName": "Miyako City",
+    "kana": "みやこし",
+    "officeCode": "030000",
+    "office": "岩手県",
+    "officeEn": "Iwate",
+    "forecastCode": "030020"
+  },
+  "coast": "岩手県",
+  "high": 24,
+  "events": [
+    {
+      "id": "mamori-demo-iwate",
+      "cityCode": "0320200",
+      "city": "岩手県 宮古市",
+      "publisher": "MAMORI 模拟数据",
+      "status": "訓練",
+      "infoType": "発表",
+      "scope": "confirmed-coast",
+      "activeState": "reported",
+      "hazard": "tsunami",
+      "name": "津波警報",
+      "coast": "岩手県",
+      "timingNote": "到达时间未设定 · 立即避难",
+      "metrics": [
+        {
+          "label": "适用沿岸",
+          "value": "岩手県"
+        },
+        {
+          "label": "预计高度",
+          "value": "3m / 演练"
+        }
+      ]
+    },
+    {
+      "id": "iwate-earthquake-demo",
+      "cityCode": "0320200",
+      "city": "岩手県 宮古市",
+      "publisher": "MAMORI 模拟数据",
+      "status": "訓練",
+      "infoType": "発表",
+      "scope": "municipality",
+      "activeState": "observed",
+      "hazard": "earthquake",
+      "name": "地震情報",
+      "intensity": "5弱",
+      "metrics": [
+        {
+          "label": "本地震度",
+          "value": "5弱"
+        },
+        {
+          "label": "震级",
+          "value": "M7.5"
+        },
+        {
+          "label": "震源",
+          "value": "三陸沖"
+        }
+      ]
+    }
+  ]
+}

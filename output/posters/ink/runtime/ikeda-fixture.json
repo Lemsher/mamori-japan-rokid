@@ -1,0 +1,43 @@
+{
+  "city": {
+    "code": "2720400",
+    "name": "池田市",
+    "enName": "Ikeda City",
+    "kana": "いけだし",
+    "officeCode": "270000",
+    "office": "大阪府",
+    "officeEn": "Osaka",
+    "forecastCode": "270000"
+  },
+  "coast": "",
+  "high": 28,
+  "events": [
+    {
+      "id": "mamori-demo-ikeda",
+      "cityCode": "2720400",
+      "city": "大阪府 池田市",
+      "publisher": "MAMORI 模拟数据",
+      "status": "訓練",
+      "infoType": "発表",
+      "scope": "municipality",
+      "activeState": "observed",
+      "hazard": "earthquake",
+      "name": "地震情報",
+      "intensity": "5弱",
+      "metrics": [
+        {
+          "label": "本地震度",
+          "value": "5弱"
+        },
+        {
+          "label": "震级",
+          "value": "M6.2"
+        },
+        {
+          "label": "震源",
+          "value": "大阪府北部"
+        }
+      ]
+    }
+  ]
+}

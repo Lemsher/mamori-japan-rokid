@@ -1,0 +1,92 @@
+[
+  {
+    "url": "http://127.0.0.1:8790/ikeda.html",
+    "width": 1920,
+    "height": 1080,
+    "images": [
+      {
+        "src": "screens/ikeda-daily.png",
+        "width": 1920,
+        "height": 1408
+      },
+      {
+        "src": "screens/ikeda-warning.png",
+        "width": 1920,
+        "height": 1408
+      },
+      {
+        "src": "screens/ikeda-alert.png",
+        "width": 1920,
+        "height": 1408
+      },
+      {
+        "src": "screens/ikeda-guide.png",
+        "width": 1920,
+        "height": 1408
+      }
+    ],
+    "valueBottom": 983.4921875,
+    "footerTop": 1005.40625,
+    "overflow": []
+  },
+  {
+    "url": "http://127.0.0.1:8790/wakayama.html",
+    "width": 1920,
+    "height": 1080,
+    "images": [
+      {
+        "src": "screens/wakayama-daily.png",
+        "width": 1920,
+        "height": 1408
+      },
+      {
+        "src": "screens/wakayama-warning.png",
+        "width": 1920,
+        "height": 1408
+      },
+      {
+        "src": "screens/wakayama-alert.png",
+        "width": 1920,
+        "height": 1408
+      },
+      {
+        "src": "screens/wakayama-guide.png",
+        "width": 1920,
+        "height": 1408
+      }
+    ],
+    "valueBottom": 983.4921875,
+    "footerTop": 1005.40625,
+    "overflow": []
+  },
+  {
+    "url": "http://127.0.0.1:8790/iwate.html",
+    "width": 1920,
+    "height": 1080,
+    "images": [
+      {
+        "src": "screens/iwate-daily.png",
+        "width": 1920,
+        "height": 1408
+      },
+      {
+        "src": "screens/iwate-warning.png",
+        "width": 1920,
+        "height": 1408
+      },
+      {
+        "src": "screens/iwate-alert.png",
+        "width": 1920,
+        "height": 1408
+      },
+      {
+        "src": "screens/iwate-guide.png",
+        "width": 1920,
+        "height": 1408
+      }
+    ],
+    "valueBottom": 983.4921875,
+    "footerTop": 1005.40625,
+    "overflow": []
+  }
+]

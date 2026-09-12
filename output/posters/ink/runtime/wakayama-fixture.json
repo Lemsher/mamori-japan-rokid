@@ -1,0 +1,42 @@
+{
+  "city": {
+    "code": "3020100",
+    "name": "和歌山市",
+    "enName": "Wakayama City",
+    "kana": "わかやまし",
+    "officeCode": "300000",
+    "office": "和歌山県",
+    "officeEn": "Wakayama",
+    "forecastCode": "300010"
+  },
+  "coast": "",
+  "high": 29,
+  "events": [
+    {
+      "id": "mamori-demo-wakayama",
+      "cityCode": "3020100",
+      "city": "和歌山県 和歌山市",
+      "publisher": "MAMORI 模拟数据",
+      "status": "訓練",
+      "infoType": "発表",
+      "scope": "municipality",
+      "activeState": "reported",
+      "hazard": "volcano",
+      "name": "噴火警報",
+      "metrics": [
+        {
+          "label": "情境",
+          "value": "虚构火山喷发"
+        },
+        {
+          "label": "警戒等级",
+          "value": "3 / 演练"
+        },
+        {
+          "label": "管制",
+          "value": "入山規制"
+        }
+      ]
+    }
+  ]
+}
