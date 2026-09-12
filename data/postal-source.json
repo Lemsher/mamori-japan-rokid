@@ -1,0 +1,8 @@
+{
+  "source": "https://www.post.japanpost.jp/service/search/zipcode/download/utf/zip/utf_ken_all.zip",
+  "publishedAt": "2026-08-31",
+  "retrievedAt": "2026-09-11",
+  "sha256": "7d42728c4c9023e30668b1ef144fd5ffd831a417011c82d3e85ca3c35db43b15",
+  "municipalities": 1892,
+  "postcodes": 120717
+}

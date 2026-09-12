@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.cache/
+__pycache__/
+*.pyc
+.DS_Store
+agent/modules/config.local.js

@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/location/index",
+    "pages/alert/index",
+    "pages/guide/index",
+    "pages/shelters/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "まもり / MAMORI",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white",
+    "viewport": {
+      "width": "device-width"
+    }
+  }
+}
