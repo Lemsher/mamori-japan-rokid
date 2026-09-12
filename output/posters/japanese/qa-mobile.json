@@ -1,0 +1,24 @@
+[
+  {
+    "lang": "ja",
+    "width": 390,
+    "scrollWidth": 390,
+    "images": true,
+    "overflow": [],
+    "anchor": {
+      "hash": "#shelters",
+      "top": -0.140625
+    }
+  },
+  {
+    "lang": "zh",
+    "width": 390,
+    "scrollWidth": 390,
+    "images": true,
+    "overflow": [],
+    "anchor": {
+      "hash": "#shelters",
+      "top": -0.2109375
+    }
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "demo": true,
+  "purpose": "native Ink shelter selection and navigation handoff capture only; no real GPS, public route or destination asserted",
+  "places": [
+    {
+      "id": "training-a",
+      "name": "【訓練】高台避難場所 A",
+      "address": "宮古市・訓練用住所",
+      "remarks": "表示テスト用の架空の場所",
+      "latitude": 39.65,
+      "longitude": 141.95,
+      "distanceMeters": 480,
+      "elevationMeters": 35,
+      "hazard": "tsunami",
+      "designated": true,
+      "openingStatus": "unverified",
+      "routeSafety": "unverified"
+    },
+    {
+      "id": "training-b",
+      "name": "【訓練】高台避難場所 B",
+      "address": "宮古市・訓練用住所",
+      "remarks": "表示テスト用の架空の場所",
+      "latitude": 39.66,
+      "longitude": 141.95,
+      "distanceMeters": 920,
+      "elevationMeters": 42,
+      "hazard": "tsunami",
+      "designated": true,
+      "openingStatus": "unverified",
+      "routeSafety": "unverified"
+    }
+  ]
+}
