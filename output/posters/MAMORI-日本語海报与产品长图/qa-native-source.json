@@ -1,0 +1,302 @@
+[
+  {
+    "runtime": "ikeda-daily.html",
+    "pages": [
+      {
+        "path": "pages/alert/index.ink",
+        "sha256": "855755d6ebd96ebe351bf0e52d2ee44fac42d61146afae5b1ca49bb3479c5b16",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/guide/index.ink",
+        "sha256": "26c93ac8d9a7be258b57825bc94bd3a5fdd43d06d591f53590eb772362a7f6e8",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/home/index.ink",
+        "sha256": "da5ce69a2ffbabe7bf0cbed217c114ed7932027afd398888c311954119741fba",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/location/index.ink",
+        "sha256": "0c4964f71cb63e58a131a575ee81a07967c7c78e30760ee4643b207395c4017a",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/shelters/index.ink",
+        "sha256": "4232d105cf942a2db9a4bca63cf16ae29022bef256a0522c2963a0402ba433d7",
+        "matchesSource": true
+      }
+    ]
+  },
+  {
+    "runtime": "ikeda-warning.html",
+    "pages": [
+      {
+        "path": "pages/alert/index.ink",
+        "sha256": "855755d6ebd96ebe351bf0e52d2ee44fac42d61146afae5b1ca49bb3479c5b16",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/guide/index.ink",
+        "sha256": "26c93ac8d9a7be258b57825bc94bd3a5fdd43d06d591f53590eb772362a7f6e8",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/home/index.ink",
+        "sha256": "da5ce69a2ffbabe7bf0cbed217c114ed7932027afd398888c311954119741fba",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/location/index.ink",
+        "sha256": "0c4964f71cb63e58a131a575ee81a07967c7c78e30760ee4643b207395c4017a",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/shelters/index.ink",
+        "sha256": "4232d105cf942a2db9a4bca63cf16ae29022bef256a0522c2963a0402ba433d7",
+        "matchesSource": true
+      }
+    ]
+  },
+  {
+    "runtime": "ikeda.html",
+    "pages": [
+      {
+        "path": "pages/alert/index.ink",
+        "sha256": "855755d6ebd96ebe351bf0e52d2ee44fac42d61146afae5b1ca49bb3479c5b16",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/guide/index.ink",
+        "sha256": "26c93ac8d9a7be258b57825bc94bd3a5fdd43d06d591f53590eb772362a7f6e8",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/home/index.ink",
+        "sha256": "da5ce69a2ffbabe7bf0cbed217c114ed7932027afd398888c311954119741fba",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/location/index.ink",
+        "sha256": "0c4964f71cb63e58a131a575ee81a07967c7c78e30760ee4643b207395c4017a",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/shelters/index.ink",
+        "sha256": "4232d105cf942a2db9a4bca63cf16ae29022bef256a0522c2963a0402ba433d7",
+        "matchesSource": true
+      }
+    ]
+  },
+  {
+    "runtime": "iwate-daily.html",
+    "pages": [
+      {
+        "path": "pages/alert/index.ink",
+        "sha256": "855755d6ebd96ebe351bf0e52d2ee44fac42d61146afae5b1ca49bb3479c5b16",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/guide/index.ink",
+        "sha256": "26c93ac8d9a7be258b57825bc94bd3a5fdd43d06d591f53590eb772362a7f6e8",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/home/index.ink",
+        "sha256": "da5ce69a2ffbabe7bf0cbed217c114ed7932027afd398888c311954119741fba",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/location/index.ink",
+        "sha256": "0c4964f71cb63e58a131a575ee81a07967c7c78e30760ee4643b207395c4017a",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/shelters/index.ink",
+        "sha256": "4232d105cf942a2db9a4bca63cf16ae29022bef256a0522c2963a0402ba433d7",
+        "matchesSource": true
+      }
+    ]
+  },
+  {
+    "runtime": "iwate-warning.html",
+    "pages": [
+      {
+        "path": "pages/alert/index.ink",
+        "sha256": "855755d6ebd96ebe351bf0e52d2ee44fac42d61146afae5b1ca49bb3479c5b16",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/guide/index.ink",
+        "sha256": "26c93ac8d9a7be258b57825bc94bd3a5fdd43d06d591f53590eb772362a7f6e8",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/home/index.ink",
+        "sha256": "da5ce69a2ffbabe7bf0cbed217c114ed7932027afd398888c311954119741fba",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/location/index.ink",
+        "sha256": "0c4964f71cb63e58a131a575ee81a07967c7c78e30760ee4643b207395c4017a",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/shelters/index.ink",
+        "sha256": "4232d105cf942a2db9a4bca63cf16ae29022bef256a0522c2963a0402ba433d7",
+        "matchesSource": true
+      }
+    ]
+  },
+  {
+    "runtime": "iwate.html",
+    "pages": [
+      {
+        "path": "pages/alert/index.ink",
+        "sha256": "855755d6ebd96ebe351bf0e52d2ee44fac42d61146afae5b1ca49bb3479c5b16",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/guide/index.ink",
+        "sha256": "26c93ac8d9a7be258b57825bc94bd3a5fdd43d06d591f53590eb772362a7f6e8",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/home/index.ink",
+        "sha256": "da5ce69a2ffbabe7bf0cbed217c114ed7932027afd398888c311954119741fba",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/location/index.ink",
+        "sha256": "0c4964f71cb63e58a131a575ee81a07967c7c78e30760ee4643b207395c4017a",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/shelters/index.ink",
+        "sha256": "4232d105cf942a2db9a4bca63cf16ae29022bef256a0522c2963a0402ba433d7",
+        "matchesSource": true
+      }
+    ]
+  },
+  {
+    "runtime": "shelters.html",
+    "pages": [
+      {
+        "path": "pages/alert/index.ink",
+        "sha256": "855755d6ebd96ebe351bf0e52d2ee44fac42d61146afae5b1ca49bb3479c5b16",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/guide/index.ink",
+        "sha256": "26c93ac8d9a7be258b57825bc94bd3a5fdd43d06d591f53590eb772362a7f6e8",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/home/index.ink",
+        "sha256": "da5ce69a2ffbabe7bf0cbed217c114ed7932027afd398888c311954119741fba",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/location/index.ink",
+        "sha256": "0c4964f71cb63e58a131a575ee81a07967c7c78e30760ee4643b207395c4017a",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/shelters/index.ink",
+        "sha256": "4232d105cf942a2db9a4bca63cf16ae29022bef256a0522c2963a0402ba433d7",
+        "matchesSource": true
+      }
+    ]
+  },
+  {
+    "runtime": "wakayama-daily.html",
+    "pages": [
+      {
+        "path": "pages/alert/index.ink",
+        "sha256": "855755d6ebd96ebe351bf0e52d2ee44fac42d61146afae5b1ca49bb3479c5b16",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/guide/index.ink",
+        "sha256": "26c93ac8d9a7be258b57825bc94bd3a5fdd43d06d591f53590eb772362a7f6e8",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/home/index.ink",
+        "sha256": "da5ce69a2ffbabe7bf0cbed217c114ed7932027afd398888c311954119741fba",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/location/index.ink",
+        "sha256": "0c4964f71cb63e58a131a575ee81a07967c7c78e30760ee4643b207395c4017a",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/shelters/index.ink",
+        "sha256": "4232d105cf942a2db9a4bca63cf16ae29022bef256a0522c2963a0402ba433d7",
+        "matchesSource": true
+      }
+    ]
+  },
+  {
+    "runtime": "wakayama-warning.html",
+    "pages": [
+      {
+        "path": "pages/alert/index.ink",
+        "sha256": "855755d6ebd96ebe351bf0e52d2ee44fac42d61146afae5b1ca49bb3479c5b16",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/guide/index.ink",
+        "sha256": "26c93ac8d9a7be258b57825bc94bd3a5fdd43d06d591f53590eb772362a7f6e8",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/home/index.ink",
+        "sha256": "da5ce69a2ffbabe7bf0cbed217c114ed7932027afd398888c311954119741fba",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/location/index.ink",
+        "sha256": "0c4964f71cb63e58a131a575ee81a07967c7c78e30760ee4643b207395c4017a",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/shelters/index.ink",
+        "sha256": "4232d105cf942a2db9a4bca63cf16ae29022bef256a0522c2963a0402ba433d7",
+        "matchesSource": true
+      }
+    ]
+  },
+  {
+    "runtime": "wakayama.html",
+    "pages": [
+      {
+        "path": "pages/alert/index.ink",
+        "sha256": "855755d6ebd96ebe351bf0e52d2ee44fac42d61146afae5b1ca49bb3479c5b16",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/guide/index.ink",
+        "sha256": "26c93ac8d9a7be258b57825bc94bd3a5fdd43d06d591f53590eb772362a7f6e8",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/home/index.ink",
+        "sha256": "da5ce69a2ffbabe7bf0cbed217c114ed7932027afd398888c311954119741fba",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/location/index.ink",
+        "sha256": "0c4964f71cb63e58a131a575ee81a07967c7c78e30760ee4643b207395c4017a",
+        "matchesSource": true
+      },
+      {
+        "path": "pages/shelters/index.ink",
+        "sha256": "4232d105cf942a2db9a4bca63cf16ae29022bef256a0522c2963a0402ba433d7",
+        "matchesSource": true
+      }
+    ]
+  }
+]

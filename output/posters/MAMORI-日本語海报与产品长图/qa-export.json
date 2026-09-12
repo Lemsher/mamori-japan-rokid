@@ -1,0 +1,167 @@
+[
+  {
+    "name": "ikeda-ja",
+    "width": 1920,
+    "height": 1080,
+    "scrollWidth": 1920,
+    "images": [
+      {
+        "src": "screens/ikeda-daily.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/ikeda-warning.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/ikeda-alert.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/ikeda-guide.png",
+        "w": 1920,
+        "h": 1408
+      }
+    ],
+    "overflow": []
+  },
+  {
+    "name": "wakayama-ja",
+    "width": 1920,
+    "height": 1080,
+    "scrollWidth": 1920,
+    "images": [
+      {
+        "src": "screens/wakayama-daily.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/wakayama-warning.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/wakayama-alert.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/wakayama-guide.png",
+        "w": 1920,
+        "h": 1408
+      }
+    ],
+    "overflow": []
+  },
+  {
+    "name": "iwate-ja",
+    "width": 1920,
+    "height": 1080,
+    "scrollWidth": 1920,
+    "images": [
+      {
+        "src": "screens/iwate-daily.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/iwate-warning.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/iwate-alert.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/iwate-guide.png",
+        "w": 1920,
+        "h": 1408
+      }
+    ],
+    "overflow": []
+  },
+  {
+    "name": "product-long-ja",
+    "width": 1200,
+    "height": 4646,
+    "scrollWidth": 1200,
+    "images": [
+      {
+        "src": "screens/ikeda-daily.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/iwate-daily.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/iwate-warning.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/iwate-guide.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/shelters-ja.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/navigation-ja.png",
+        "w": 1920,
+        "h": 1408
+      }
+    ],
+    "overflow": []
+  },
+  {
+    "name": "product-long-zh",
+    "width": 1200,
+    "height": 4587,
+    "scrollWidth": 1200,
+    "images": [
+      {
+        "src": "screens/ikeda-daily-zh.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/iwate-daily-zh.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/iwate-warning-zh.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/iwate-guide-zh.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/shelters-zh.png",
+        "w": 1920,
+        "h": 1408
+      },
+      {
+        "src": "screens/navigation-zh.png",
+        "w": 1920,
+        "h": 1408
+      }
+    ],
+    "overflow": []
+  }
+]
